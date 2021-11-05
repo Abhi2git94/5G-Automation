@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.1 (Python 3.9.6 on win32)" generated="20211020 19:22:48.704" rpa="false" schemaversion="2">
+<suite id="s1" name="Attach Testsuite" source="C:\Users\Abhishek Verma\PycharmProjects\5G Automation\Testsuite\attach_testsuite.robot">
+<test id="s1-t1" name="Test_case_handover">
+<kw name="FR1toFR1">
+<kw name="Handover FR1toFR1" library="attach_test">
+<msg timestamp="20211020 19:23:18.888" level="INFO">Check UE status:
+                 UE is in connected mode with active data transfer
+Message Received in UE regarding Handover
+Handover is successfully done and handover delay does not exceeds the max RRC procedure delay</msg>
+<status status="PASS" starttime="20211020 19:23:18.885" endtime="20211020 19:23:18.888"/>
+</kw>
+<status status="PASS" starttime="20211020 19:23:18.885" endtime="20211020 19:23:18.888"/>
+</kw>
+<kw name="FR2toFR1">
+<kw name="Handover FR2toFR1" library="attach_test">
+<msg timestamp="20211020 19:23:18.893" level="INFO">Check UE status:
+                 UE is in connected mode with active data transfer
+Message Received in UE regarding Handover
+Handover is successfully done and handover delay does not exceeds the max RRC procedure delay</msg>
+<status status="PASS" starttime="20211020 19:23:18.889" endtime="20211020 19:23:18.893"/>
+</kw>
+<status status="PASS" starttime="20211020 19:23:18.889" endtime="20211020 19:23:18.893"/>
+</kw>
+<kw name="FR2toFR2">
+<kw name="Handover FR2toFR2" library="attach_test">
+<msg timestamp="20211020 19:23:18.897" level="INFO">Check UE status:
+                 UE is in connected mode with active data transfer
+Message Received in UE regarding Handover
+Handover is successfully done and handover delay does not exceeds the max RRC procedure delay</msg>
+<status status="PASS" starttime="20211020 19:23:18.894" endtime="20211020 19:23:18.897"/>
+</kw>
+<status status="PASS" starttime="20211020 19:23:18.894" endtime="20211020 19:23:18.897"/>
+</kw>
+<kw name="FR1toFR2">
+<kw name="Handover FR1toFR2" library="attach_test">
+<msg timestamp="20211020 19:23:18.901" level="INFO">Check UE status:
+                 UE is in connected mode with active data transfer
+Message not found
+Handover is successfully done and handover delay does not exceeds the max RRC procedure delay</msg>
+<status status="PASS" starttime="20211020 19:23:18.898" endtime="20211020 19:23:18.901"/>
+</kw>
+<status status="PASS" starttime="20211020 19:23:18.898" endtime="20211020 19:23:18.902"/>
+</kw>
+<status status="PASS" starttime="20211020 19:23:18.883" endtime="20211020 19:23:18.902"/>
+</test>
+<status status="PASS" starttime="20211020 19:22:48.709" endtime="20211020 19:23:18.905"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Attach Testsuite">Attach Testsuite</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
